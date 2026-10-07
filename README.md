@@ -1,43 +1,20 @@
-# Simple-DOM-Todo-App
+# ✅ Simple DOM Todo App
 
-A minimal vanilla JavaScript Todo app that stores tasks in `localStorage` so they persist across page reloads. Add tasks, see them rendered instantly in the list, and remove them with a single click. 
+> A minimal vanilla-JavaScript Todo app with persistent browser storage.
 
----
+## ✨ Features
+- Add and delete tasks
+- Prevent empty and duplicate entries
+- Dynamic DOM rendering
+- Persistent `localStorage`
+- Fully client-side
 
-## Features
+## 🧰 Tech
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
-- Add new todo items via an input field and button.
-- Prevents empty todos and duplicate entries.
-- Persists all todos using `localStorage`.
-- Renders todos dynamically in the DOM.
-- Delete button on each todo to remove it from both the UI and `localStorage`. :contentReference[oaicite:1]{index=1}
+## 🧠 Concepts
+DOM manipulation • events • validation • localStorage • dynamic rendering
 
----
-
-## Getting Started
-
-1. **Clone or download** this repository.
-2. Make sure the following files are in the same folder:
-   - `index.html`
-   - `script.js`
-   - `styles.css`
-3. Open `index.html` directly in your browser (double-click it or use “Open with Live Server” in VS Code). 
-
----
-
-## Usage
-
-1. Type a task into the input field.
-2. Click **“Add TODO”** to add it to the list.
-3. Your todos are automatically saved in the browser’s `localStorage`.
-4. Click the **“Delete Button”** next to any todo to remove it. :contentReference[oaicite:3]{index=3}
-
----
-
-## Project Structure
-
-```text
-.
-├── index.html   # Markup for the Todo app UI
-├── script.js    # DOM logic & localStorage handling
-└── styles.css   # Styling for layout & components
+Built by **Javin Arora**.
